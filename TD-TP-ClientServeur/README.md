@@ -1,3 +1,4 @@
+Tout le descriptif est aussi dans le fichier PDF
 ***TD Des Sockets aux Serveurs ![](Aspose.Words.c172d576-44e7-4ce4-8892-a22a49063fcb.001.png)***
 
 **Client Serveur 1 :** 
