@@ -1,5 +1,5 @@
- La class Integer est immutable !
 
+Jouez avec les passages de paramètres aux fonctions : 
 
 1) Lisez la classe Main et faite un pronostique sur le résultat de son exécution.
 2) Voyez de même la classe Exemple2
@@ -20,3 +20,5 @@ Les autres Objets sont tous passés par Référence.
 Lors de l'appel à la méthode, c'est la référence qui est passée, une "sorte de pointeur", "un fil  qui mène à l'objet" et qui est acceuilli par 
 la variable déninie dans la déclaration de la fonction.
 Ainsi les OBJETS passés par référence sont modifiable depuis le corps de la méthode.
+
+...  La class Integer est immutable !
