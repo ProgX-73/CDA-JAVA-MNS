@@ -1,7 +1,14 @@
  La class Integer est immutable !
 
+
+1) Lisez la classe Main et faite un pronostique sur le résultat de son exécution.
+2) Voyez de même la classe Exemple2
+3) Construisez un exemple qui passe un Objet Data en paramètre d'une fonction qui modifira la valeur de ses attributs.
+4) Expliquez les résultats obtenus.
+5) Voyez la Classe Data2, quelle est le problème ?
+
 	
-	Explication:
+	Explications:
  Toutes les classes wrapper de primitives (Integer, Byte, Long, Float, Double, Character, Boolean et Short) sont immuables en Java,
  donc les opérations comme l'addition et la soustraction créent un nouvel objet et ne modifient pas l'ancien.
  Lorsqu'on passse ce type d'objet en paramètres à une méthode, le même mécanisme est appliqué.
