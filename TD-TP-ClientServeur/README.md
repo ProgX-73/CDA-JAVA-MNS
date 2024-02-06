@@ -1,5 +1,5 @@
 # ***Les Sockets*** #
- (TP dans le PDF)
+[ (TP dans le PDF)](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/TD-TP-ClientServeur/Socket-ClientServeur%20en%20Java.pdf)
 En Java, les sockets sont utilisées pour la communication entre deux programmes via un réseau. Les sockets fournissent une interface pour la programmation réseau bas niveau, permettant aux applications de s'envoyer des données à travers un réseau. Le modèle de socket utilisé dans Java est basé sur le modèle de sockets BSD (Berkeley Software Distribution).
 
 Création de Sockets : Deux classe  du package java.net sont à disposition :
