@@ -24,7 +24,8 @@ Socket clientSocket = new Socket("adresseMachineServeur", 8080); // Connexion à
 Lorsque le client se connecte, un flux de données arrive sur le port de la machine serveur, par le biais de la méthode accept(), le ServerSocket va produire un objet clientSocket pour ce flux.
 Deux sockets peuvent alors dialoguer via des flux d'entrée et de sorties.
 
-![image](https://github.com/ProgX-73/CDA-JAVA-MNS/assets/7236016/de7835a9-595f-486b-a833-8b157aa84916)
+![image](https://github.com/ProgX-73/CDA-JAVA-MNS/assets/7236016/22d8d7cf-46c5-424f-9f8a-420cdf49b8dc)
+
 
 
 ## Flux de Données 
