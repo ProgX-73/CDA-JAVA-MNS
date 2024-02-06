@@ -8,6 +8,9 @@ Création de Sockets : Deux classe  du package java.net sont à disposition :
 
 **ServerSocket** : Représente un socket côté serveur, écoutant les connexions entrantes.
 
+![image](https://github.com/ProgX-73/CDA-JAVA-MNS/assets/7236016/e1909efb-4485-4f20-b8d1-b35a194de3d8)
+
+
 ## Établir la  Connexion
 Pour établir une connexion entre un client et un serveur, le serveur doit être à l'écoute sur un port spécifique. Le client se connecte ensuite à ce port. Voici comment cela peut être fait :
 
