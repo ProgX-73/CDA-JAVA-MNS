@@ -26,8 +26,6 @@ Deux sockets peuvent alors dialoguer via des flux d'entrée et de sorties.
 
 ![image](https://github.com/ProgX-73/CDA-JAVA-MNS/assets/7236016/22d8d7cf-46c5-424f-9f8a-420cdf49b8dc)
 
-
-
 ## Flux de Données 
  Une fois la connexion établie, vous pouvez obtenir des flux d'entrée et de sortie associés aux sockets pour lire et écrire. Cela s'apparente au fonctionnement du Scanner pour les flux d'entrées que vous avec déjà utilisés.
  Ces flux matérialise l'échange de données brutes telles que des bytes, ou des caractères. On les retrouve dans la lecture de fichiers textes,  images, sons, vidéos...
@@ -52,4 +50,4 @@ Une fois la communication terminée, assurez-vous de fermer les sockets pour lib
 clientSocket.close(); // Côté serveur ou client
 serverSocket.close(); // Côté serveur uniquement
 
-C'est un aperçu général du fonctionnement des sockets en Java. Il est important de gérer correctement les exceptions et de suivre les meilleures pratiques pour garantir une communication fiable et sécurisée entre les applications.
+C'est un aperçu général du fonctionnement des sockets en Java.
