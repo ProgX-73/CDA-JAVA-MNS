@@ -15,10 +15,17 @@ Création de Sockets : Deux classe  du package java.net sont à disposition :
 Pour établir une connexion entre un client et un serveur, le serveur doit être à l'écoute sur un port spécifique. Le client se connecte ensuite à ce port. Voici comment cela peut être fait :
 
 **Côté Serveur :**
-ServerSocket serverSocket = new ServerSocket(8080); // Création d'un ServerSocket écoutant sur le port 8080
-Socket clientSocket = serverSocket.accept(); // Attente d'une connexion client
+ServerSocket serverSocket = new ServerSocket(8080); // Création d'un ServerSocket écoutant sur le port 8080 de la machine hôte
+Socket clientSocket = serverSocket.accept(); // Attente d'une connexion client ...
 **Côté Client :**
-Socket clientSocket = new Socket("localhost", 8080); // Connexion à un serveur sur le port 8080
+Socket clientSocket = new Socket("adresseMachineServeur", 8080); // Connexion à un serveur sur le port 8080
+
+**Allô?**
+Lorsque le client se connecte, un flux de données arrive sur le port de la machine serveur, par le biais de la méthode accept(), le ServerSocket va produire un objet clientSocket pour ce flux.
+Deux sockets peuvent alors dialoguer via des flux d'entrée et de sorties.
+
+![image](https://github.com/ProgX-73/CDA-JAVA-MNS/assets/7236016/de7835a9-595f-486b-a833-8b157aa84916)
+
 
 ## Flux de Données 
  Une fois la connexion établie, vous pouvez obtenir des flux d'entrée et de sortie associés aux sockets pour lire et écrire. Cela s'apparente au fonctionnement du Scanner pour les flux d'entrées que vous avec déjà utilisés.
