@@ -7,6 +7,7 @@ import distributeursBoissons.magasin.FabriqueProduit;
 import distributeursBoissons.magasin.IMagasin;
 import distributeursBoissons.magasin.margot.Magasin;
 
+
 public class Main {
 	
 
@@ -18,7 +19,8 @@ public class Main {
 		System.out.println("Choisissez un magasin :");
 		System.out.println("1 : magasin de Margot");
 		System.out.println("2 : magasin de Nordine ");
-		System.out.println("3 : magasin de Fred ");
+		System.out.println("3 : magasin de Hapsatou ");
+		System.out.println("4 : magasin de Fred ");
 		int choix = new Scanner(System.in).nextInt();
 		switch(choix){
 		case 1: {
@@ -32,6 +34,11 @@ public class Main {
 				break;
 			}
 		case 3 : {
+			distributeursBoissons.magasin.hapsatou.Magasin hapsatouMag = new distributeursBoissons.magasin.hapsatou.Magasin();
+			mag = hapsatouMag;
+			break;
+		}
+		case 4 : {
 			distributeursBoissons.magasin.fred.Magasin fredMag = new distributeursBoissons.magasin.fred.Magasin();
 			mag = fredMag;
 			break;
