@@ -16,8 +16,6 @@ public class Personne {
 	private int age;
 	private ArrayList<Licence> licences;
 	
-	private static AccessDB db;
-	private static boolean fetchAll = true; 
 	public Integer getId() {
 		return id;
 	}

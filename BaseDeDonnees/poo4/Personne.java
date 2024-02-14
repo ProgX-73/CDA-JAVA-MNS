@@ -17,8 +17,6 @@ public class Personne {
 	//Relation n-n matérialisée ici
 	private ArrayList<Licence> licences = new ArrayList<Licence>();
 	
-	private static AccessDB db;
-	private static boolean fetchAll = true; 
 	public Integer getId() {
 		return id;
 	}
