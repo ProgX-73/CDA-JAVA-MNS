@@ -1,4 +1,4 @@
-package poo32;
+package poo4;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -21,6 +21,8 @@ public class AccessDB {
 	public AccessDB() throws ClassNotFoundException, SQLException {
 		super();
 		driver = "com.mysql.cj.jdbc.Driver"; 		// classe constituant le driver 
+		//pour mySQL
+		//driver  = "sun.jdbc.odbc.JdbcOdbcDriver";     //pour un SGBD suivant le protocole ODBC
 		url = "jdbc:mysql://localhost/velo";
 		user = "root";
 		password = "root";
@@ -31,4 +33,5 @@ public class AccessDB {
 	public Connection getConnection() throws SQLException {
 		return DriverManager.getConnection(url,user,password);
 	}
+	
 }

@@ -13,8 +13,13 @@ public class TestClientSQL {
 	public static void main(String[] args)throws ClassNotFoundException, SQLException
 	{
 		
-				
-				for (Personne personne : PersonneDAO.list()) {
+		Personne p = new Personne();
+		p.setNom("Titi");
+		p.setPrenom("Norbert");
+		p.setAge(80);
+		PersonneDAO.save(p);
+
+		for (Personne personne : PersonneDAO.list()) {
 					System.out.println(personne);
 				}
 				
