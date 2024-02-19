@@ -1,8 +1,7 @@
 ***Documents:***  
-Ci dessous  
-***Les Sockets***  
+Ci dessous : ***Les Sockets***  
 ***TD/TP en PDF***  [*** (TP dans le PDF)***](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/TD-TP-ClientServeur/Socket-ClientServeur%20en%20Java.pdf)  
-***HttpServer Java*** [*** (TP dans le PDF)***](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/TD-TP-ClientServeur/clientserveur4/HttpServeurJava.pdf)   
+***HttpServer Java*** [*** (Explications dans le PDF)***](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/TD-TP-ClientServeur/clientserveur4/HttpServeurJava.pdf)   
 (Si les documents pdf ne s'affichent pas, utilisez la flêches à droite pour les télécharger directement.)
 # ***Les Sockets*** #
 
