@@ -10,5 +10,7 @@ Ordre de lecture pour les commentaires scriplets -> expression languages -> EL-J
 
 [*Cours EL-JSTL*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/cours-jstl-el.pdf)  
 [*Aide Memoire EL-JSTL*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/Aide-memoire-EL-jstl.pdf)  
+[*Cours JSP*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/Java%20Server%20Pages-cours.pdf)  
+
 
 
