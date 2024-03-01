@@ -11,6 +11,7 @@
     <title>Scriplets</title>
 </head>
 <body>
+<jsp:include page="includes/header.jsp"/>
 Mélange de code java et de HTML<hr/>
 
 <%

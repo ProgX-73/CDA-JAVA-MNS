@@ -22,6 +22,7 @@
      </style>
 </head>
 <body>
+<jsp:include page="includes/header.jsp"/>
 <c:forEach var="i" begin="1" end="10" varStatus="status">
     Itération : ${status.index} <br/>
     status.first : ${status.first},

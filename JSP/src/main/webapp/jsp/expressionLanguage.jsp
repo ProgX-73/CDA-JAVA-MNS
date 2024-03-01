@@ -4,6 +4,7 @@
     <title>Expression Language</title>
 </head>
 <body>
+<jsp:include page="includes/header.jsp"/>
 <%
     //Ici un peu de code java pour la démonstration.
     Integer maVariable = 10;
