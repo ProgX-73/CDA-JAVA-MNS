@@ -1,7 +1,9 @@
 package com.example.tomcatdemo1;
 
 import java.io.*;
+import java.util.ArrayList;
 
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
@@ -17,11 +19,24 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html");
 
         // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
+
+
+        request.setAttribute("messageRequest","HelloRequest from Servlet");
+        request.getSession().setAttribute("messageSession","HelloSession from Servlet");
+
+        ArrayList<Integer> numeros = new ArrayList<Integer>();
+        for(int i=0; i<11; i++)
+            numeros.add(i);
+        request.setAttribute("numeros",numeros);
+
+
+        try {
+            request.getRequestDispatcher("page.jsp").forward(request,response);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
+        }
     }
+
 
     public void destroy() {
     }
