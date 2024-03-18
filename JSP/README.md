@@ -15,6 +15,10 @@ Explorez tous les répertoires sources de l'app.
 [*Cours JSP*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/Java%20Server%20Pages-cours.pdf)  
 
 ***Documentation Complémentaire***  
-[*Attributs dans le conteneur*](JSP/complementDocumentation/Les attributs dans le conteneur Web.pdf)  
-[*Base de données depuis Tomcat*](/JSP/complementDocumentation/JDBC dans une application Web — Documentation Java ORM _ Spring.pdf)  
+[*Attributs dans le conteneur*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/complementDocumentation/Les%20attributs%20dans%20le%20conteneur%20Web.pdf)  
+[*Base de données depuis Tomcat*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/complementDocumentation/JDBC%20dans%20une%20application%20Web%20%E2%80%94%20Documentation%20Java%20ORM%20_%20Spring.pdf)  
+[*Listeners & Filtres Web*](https://github.com/ProgX-73/CDA-JAVA-MNS/blob/main/JSP/complementDocumentation/Listeners%20et%20filtres%20Web.pdf)  
+
+
+
 
