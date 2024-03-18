@@ -4,4 +4,4 @@ Cette application regroupe dans différentes page les technologies fondamentales
 Servlets, Session, Request, Listeners pour les composants back.  
 JSP, Expressions Language(EL), Java Standard Tag Lib (JSTL) pour le front.  
 
-*Cours & Documentations :*  
+**Cours & Documentations :**  
